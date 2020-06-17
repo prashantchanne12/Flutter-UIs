@@ -1,3 +1,3 @@
-# Flutter-UIs
+# Flutter UI
 Flutter Sample UIs
 ---
