@@ -109,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(
-            Icons.account_circle,
+            Icons.dehaze,
             size: 30.0,
           ),
           onPressed: () {},
@@ -141,10 +141,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 fillColor: Colors.white,
                 filled: true,
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(30.0),
+                  borderRadius: BorderRadius.circular(10.0),
                   borderSide: BorderSide(width: 0.5),
                 ),
-                hintText: 'Search Food or Restaurants',
+                hintText: 'Search Food or Restaurants...',
                 prefixIcon: Icon(Icons.search),
                 suffixIcon: IconButton(
                   icon: Icon(Icons.close),
